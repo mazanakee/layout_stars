@@ -1,8 +1,7 @@
 /* коментарі пишу для себе */
-
 body {
-  display: block;
   margin: 0; /* прибрали всі зовнішні відступи усіх блоків */
+  font-family: Inter, Arial, sans-serif;
 }
 
 .stars {
