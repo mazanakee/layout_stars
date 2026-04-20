@@ -1,24 +1,21 @@
 /* коментарі пишу для себе */
 
 body {
+  display: block;
   margin: 0; /* прибрали всі зовнішні відступи усіх блоків */
 }
 
 .stars {
   display: flex; /* встановли розміщення елементів */
-  background-color: #fff;
 }
 
 .stars__star {
-  display: inline-block;
-
   width: 16px;
   height: 16px;
 
   background-image: url('./images/star.svg');
   background-repeat: no-repeat; /* відключаємо повторнення елементів */
   background-position: center; /* центруємо */
-  background-size: auto; /* розтягування авто */
 }
 
 .stars__star:not(:last-child) {
